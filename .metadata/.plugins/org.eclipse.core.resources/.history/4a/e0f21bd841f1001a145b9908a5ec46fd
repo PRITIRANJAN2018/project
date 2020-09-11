@@ -1,0 +1,12 @@
+package com.ashokit.persistanceLayer;
+
+@lombok
+public class ContactDtlsEntity {
+	
+	
+	private Integer cid;
+	private String cname;
+	private String  cmail;
+	private String cnum;//take phone no as String and Varchar
+
+}

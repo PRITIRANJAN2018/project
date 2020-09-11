@@ -1,0 +1,28 @@
+package com.ashokit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.ashokit.dto.ContactDTO;
+
+@Controller
+public class ContactInfoController {
+	
+	@GetMapping("/")
+	public String loadContactForm(Model model) {    //for display
+		return "index";
+		
+	}
+	
+	public String handleSubmitBtn(ContactDTO dto,Model model) {         //for save and load and update
+ 		return null;
+	}
+	
+	public String handleViewCtcsHyperlink(Model model) {      //show for hytperlink /view all data
+		return null;
+	}
+	
+	
+
+}

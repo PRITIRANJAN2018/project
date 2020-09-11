@@ -1,0 +1,12 @@
+package com.ashokit.controller;
+
+import org.springframework.ui.Model;
+
+public class ContactInfoController {
+	
+	public String index(Model model) {
+		return null;
+		
+	}
+
+}

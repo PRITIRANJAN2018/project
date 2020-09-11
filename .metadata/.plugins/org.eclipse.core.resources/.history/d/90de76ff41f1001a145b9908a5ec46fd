@@ -1,0 +1,10 @@
+package com.ashokit.dto;
+
+public class ContactDTO {
+	
+	private Integer cid;
+	private String cname;
+	private String  cmail;
+	private String cnum;
+
+}

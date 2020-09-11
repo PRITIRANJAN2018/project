@@ -1,0 +1,22 @@
+package com.ashokit.controller;
+
+import org.springframework.ui.Model;
+
+public class ViewContactController {
+	
+	
+
+	public String handleAddCtcsHyperlink(Model model) {  //add hyperlink
+		return null;
+	}
+	
+	public String editContacts(Integer cid) {   //edit data
+		
+		return null;
+	}
+	
+	public String deleteContacts(Integer cid) {   //delete data
+		return null;
+	}
+
+}

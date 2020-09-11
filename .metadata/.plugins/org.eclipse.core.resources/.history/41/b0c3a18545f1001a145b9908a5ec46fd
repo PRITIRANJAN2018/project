@@ -1,0 +1,36 @@
+package com.ashokit.controller;
+
+import org.springframework.ui.Model;
+
+import com.ashokit.dto.ContactDTO;
+
+public class ContactInfoController {
+	
+	public String index(Model model) {    //for display
+		return null;
+		
+	}
+	
+	public String handleSubmitBtn(ContactDTO dto,Model model) {         //for save and load and update
+ 		return null;
+	}
+	
+	public String handleViewCtcsHyperlink(Model model) {      //show for hytperlink /view all data
+		return null;
+	}
+	
+	
+	public String handleAddCtcsHyperlink(Model model) {  //add hyperlink
+		return null;
+	}
+	
+	public String editContacts(Integer cid) {   //edit data
+		
+		return null;
+	}
+	
+	public String deleteContacts(Integer cid) {   //delete data
+		return null;
+	}
+
+}

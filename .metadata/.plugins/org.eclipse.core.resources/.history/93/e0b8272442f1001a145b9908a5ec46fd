@@ -1,0 +1,15 @@
+package com.ashokit.persistanceLayer;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class ContactDtlsEntity {
+	
+	@Id
+	private Integer cid;
+	private String cname;
+	private String  cmail;
+	private String cnum;//take phone no as String and Varchar
+
+}
